@@ -11,7 +11,7 @@ padding: 0;
 .header1{
     background-color: rgb(33, 36, 46);
     width: 100%;
-    height: 65px;
+    height: auto;
     padding: 25px;
     display: flex;
     justify-content: space-evenly;
@@ -20,8 +20,8 @@ padding: 0;
 .header1 nav ul li {
     color: white;
     display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;  
+    justify-content: center;
+    margin:0px 15px;
 }
 
 i{
@@ -37,11 +37,29 @@ i{
 
 .header2 {
     background-color: beige;
+        width: 100%;
+        height: auto;
+}
+
+
+
+.header2 nav ul {
     display: flex;
-        justify-content: space-evenly;
+    justify-content: flex-end;
+    list-style: none;
 }
 
-.rightmenu {
-    display: inline-block;
+.header2 nav ul li{
+    color: gray;
+    margin:auto;
 }
 
+.header2 nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo{
+    max-width: 60%;
+    height: auto;
+}
