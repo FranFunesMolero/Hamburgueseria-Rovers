@@ -1,0 +1,47 @@
+/* Principal */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+/* ---- */
+/* Cabezera superior */
+.header1{
+    background-color: rgb(33, 36, 46);
+    width: 100%;
+    height: 65px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header1 nav ul li {
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;  
+}
+
+i{
+    color: tomato;
+}
+
+.header1 nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+/* ---- */
+/* Cabecera inferior */
+
+.header2 {
+    background-color: beige;
+    display: flex;
+        justify-content: space-evenly;
+}
+
+.rightmenu {
+    display: inline-block;
+}
+
