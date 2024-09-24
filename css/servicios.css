@@ -1,0 +1,72 @@
+.servicios .container{
+    font-family: "Montserrat";
+}
+
+.servicios .container .difcolor{
+    font-family: "Handlee";
+    font-size: 1.5em;
+    margin: 1.875rem;
+    text-align: center;
+
+    span{
+        color: tomato;
+    }
+}
+
+.servicios .container .underline{
+    color: tomato;
+    position: relative;
+    width: 6.25em;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.servicios .container .underline hr{
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.0625rem;
+    margin: 0;
+}
+
+.servicios .container .underline span{
+    position:absolute;
+    top:-0.625rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.servicios .container .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.servicios .container .grid div{
+    display: block;
+    color: tomato;
+    i{
+    border: 1px solid tomato;
+    padding: 0.3125rem;
+    }
+}
+
+.servicios .container .grid h3{
+    font-weight: 700;
+    font-size: 1em;
+    margin: 0.3em 0;
+}
+
+.servicios .container .grid .enlace{
+    text-decoration: none;
+    display: block;
+    color: tomato;
+    font-weight: 700;
+    margin: 0.8em 0;
+}
+
+.servicios .container .grid article{
+    border-bottom: 2px solid #aaa;
+    margin: 0.625rem;
+}
