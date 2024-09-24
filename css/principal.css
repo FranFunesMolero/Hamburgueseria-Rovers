@@ -1,6 +1,6 @@
 /* Importar css */
 @import url(./cabeceras.css);
-@import url(./main.css);
+@import url(./portada.css);
 
 @import url(./mediaqueries.css);
 
@@ -24,5 +24,3 @@
     font: inherit;
 }
 
-@import url(./cabeceras.css);
-@import url(./main.css);
