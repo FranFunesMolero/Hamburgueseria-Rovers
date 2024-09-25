@@ -1,0 +1,77 @@
+.aboutus .container{
+    font-family: "Montserrat";
+}
+
+.aboutus .container .difcolor {
+    font-family: "Handlee";
+    font-size: 1.5em;
+    margin: 1.875rem;
+    text-align: center;
+
+    span {
+        color: tomato;
+    }
+}
+
+.aboutus .container .underline {
+    color: tomato;
+    position: relative;
+    width: 6.25em;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.aboutus .container .underline hr {
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.0625rem;
+    margin: 0;
+}
+
+.aboutus .container .underline span {
+    position: absolute;
+    top: -0.625rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.aboutus .container .grid{
+    margin: 30px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutus .container .grid figure img{
+    max-width: 95%;
+    height: auto;
+}
+
+.aboutus .container .grid div{
+    h3{
+        margin: 10px;
+        font-weight: 700;
+    }
+
+    h4{
+        margin: 10px;
+        color: tomato;
+    }
+
+    p{
+        margin-left: 10px;
+    }
+}
+
+.aboutus .container .grid div .boton a{
+        display: inline-block;
+        background-color: tomato;
+        padding: 1.15em;
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        border: 1px solid tomato;
+}
+

@@ -1,0 +1,14 @@
+footer h2{
+    padding: 20px;
+    background-color: rgb(33, 36, 46);
+    color: white;
+    font-size: 1em;
+    font-family: "Montserrat";
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+}
