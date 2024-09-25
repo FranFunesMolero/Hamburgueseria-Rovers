@@ -4,7 +4,7 @@
 
 .servicios .container .difcolor{
     font-family: "Handlee";
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 1.875rem;
     text-align: center;
 
@@ -41,6 +41,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+    margin-left: 20px;
 }
 
 .servicios .container .grid div{
@@ -48,7 +49,7 @@
     color: tomato;
     i{
     border: 1px solid tomato;
-    padding: 0.3125rem;
+    padding: 0.75rem;
     }
 }
 

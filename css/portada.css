@@ -37,6 +37,11 @@
     text-decoration: none;
     margin: 0rem 0rem 0.625rem 1.5625rem;
     border: 1px solid tomato;
+
+    &:hover{
+        background-color: transparent;
+        color: tomato;
+    }
 }
 
 .portada .container ul li{

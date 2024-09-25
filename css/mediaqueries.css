@@ -1,5 +1,9 @@
 @media (max-width:40.625rem) {
 
+    .header1 .container a{
+        margin: 0 50px;
+    }
+
     .header1 .container a span {
         display: none;
     }
@@ -19,6 +23,13 @@
             a{
                 text-align: center;
             }
+        }
+    }
+
+    footer{
+        text-align: center;
+        h2{
+            margin: 0;
         }
     }
 }
