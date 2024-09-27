@@ -12,3 +12,14 @@ footer{
     height: auto;
     bottom: 0;
 }
+
+.scrollUp{
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    margin: 2.5rem;
+    color: tomato;
+    text-decoration: none;
+    font-size: 3rem;
+    
+}

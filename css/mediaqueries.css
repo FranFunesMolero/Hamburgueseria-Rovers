@@ -26,6 +26,10 @@
         }
     }
 
+   .aboutus .container .grid{
+    flex-direction: column;
+   }
+
     footer{
         text-align: center;
         h2{

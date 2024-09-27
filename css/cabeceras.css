@@ -17,6 +17,7 @@
 
         i{
                 color: tomato;
+                font-size: 1.25rem;
             }
         
         a{
@@ -82,4 +83,8 @@ margin: 0.375rem 0px;
     margin:0px 0.625rem;
     padding: 0px 1.25rem;
     transition: 0.5s;
+
+    &:hover {
+        color: tomato;
+    }
 }
